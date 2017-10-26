@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rishabh09/giftgiver.svg?branch=travis)](https://travis-ci.org/rishabh09/giftgiver)
+[![Build Status](https://travis-ci.org/rishabh09/giftgiver.svg?branch=master)](https://travis-ci.org/rishabh09/giftgiver)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
