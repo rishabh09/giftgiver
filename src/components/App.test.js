@@ -24,5 +24,20 @@ describe('App', () => {
 		it('renders new gifts on `gift-lift`', () => {
 			expect(app.find('.gift-list').children().length).toEqual(3)
 		})
+
+		it('create a gift component', () => {
+			expect(app.find('Gift').exists()).toBe(true)
+		})
 	})
+
+	describe('when user removes the gift', ()=> {
+		beforeEach(() => {
+			app.instance().removeGift(1)
+		})
+		it('removes gift from `state`', () => {	
+			expect(app.state().gifts).toEqual([{id: 2},{id: 3},{id: 4}])
+		})
+	})
+
+
 })
